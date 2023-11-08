@@ -16,11 +16,13 @@ services:
     environment:
       DISPLAY: '${DISPLAY}'
       QT_X11_NO_MITSHM: 1
+
+      JAVA_HOME: /usr/lib/jvm/jdk-21-oracle-x64
     
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       # - '${HOME}/.Xauthority:/root/.Xauthority'
-      - /home:/home
+      - .:/source
     
     ipc: host
     shm_size: '2g'
