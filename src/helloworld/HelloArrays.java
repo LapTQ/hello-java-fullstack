@@ -35,5 +35,10 @@ public class HelloArrays {
                 System.out.println("value: " + value);
             }
         }
+
+        /*
+         * Also, variables declared inside a loop or code block are only accessible inside that loop or code block.
+         * Try System.out.println(<value or row>) here will result in an error.
+         */
     }
 }

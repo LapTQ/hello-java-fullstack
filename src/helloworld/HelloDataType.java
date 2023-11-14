@@ -16,7 +16,13 @@ public class HelloDataType {
                 - double: 8 bytes
                 - boolean: 1 byte
                 - char: 2 bytes
-            stores the actual value of the data, not the address of the data.
+            Properties:
+                - stores the actual value of the data, not the address of the data.
+                - is written directly in Stack memory.
+
+            Reference data types:
+                - Value stored in Stack memory is used as a reference pointer to Heap memory.
+                    So in function arguments, java pass: value for primitive & reference for object => for object, == check if same reference (i.e same object)
         
         */
         

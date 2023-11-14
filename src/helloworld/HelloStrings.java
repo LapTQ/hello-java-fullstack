@@ -14,8 +14,8 @@ public class HelloStrings {
          *  + StringBuilder: not synchronized, not thread-safe
          */
         
-        String str = "Hello, ";
-        String str2 = new String("World!");
+        String str = "Hello, "; // or ""
+        String str2 = new String("World!"); // or null
         /*
          * String literals are stored in a string pool, a special area in the Java heap memory. 
          * When the JVM encounters a string literal, it checks if an equivalent string already exists in the pool. 
