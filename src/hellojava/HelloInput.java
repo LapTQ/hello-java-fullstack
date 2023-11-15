@@ -1,4 +1,4 @@
-package helloworld;
+package hellojava;
 import java.util.Scanner;
 
 public class HelloInput {

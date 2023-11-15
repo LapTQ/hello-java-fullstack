@@ -1,4 +1,4 @@
-package helloworld;
+package hellojava;
 
 abstract class AnAbstractClass {
     abstract void doA();

@@ -1,4 +1,4 @@
-package helloworld;
+package hellojava;
 
 // ============================= CONFUSING SCENARIO 1 ==============================
 

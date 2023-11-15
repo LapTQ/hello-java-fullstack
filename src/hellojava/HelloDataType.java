@@ -1,4 +1,4 @@
-package helloworld;
+package hellojava;
 import java.util.Date;
 
 public class HelloDataType {
