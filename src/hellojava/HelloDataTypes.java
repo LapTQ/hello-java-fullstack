@@ -1,7 +1,7 @@
 package hellojava;
 import java.util.Date;
 
-public class HelloDataType {
+public class HelloDataTypes {
     
     public static void main(String[] args) {
 
